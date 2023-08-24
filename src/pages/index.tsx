@@ -64,12 +64,12 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Tiktokenizer</title>
+        <title>昆仑开放平台Token计算器</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-auto flex min-h-screen max-w-[1200px] flex-col gap-4 p-8">
         <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-center">
-          <h1 className="text-4xl font-bold">Tiktokenizer</h1>
+          <h1 className="text-4xl font-bold">昆仑开放平台Token计算器</h1>
 
           <EncoderSelect
             value={params}
